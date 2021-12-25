@@ -92,8 +92,9 @@ const ExploreScreen = () => {
     var mars = [];
     axios({
       method: "GET",
-      url: "https://iot.efillelectric.com/ocpi/cpo/2.2/locations",
-      params: {
+      url: "KEEP YOUR API HERE",
+      // IF IMPORTANT PASS THE PARAMS OR LEV FOR ALL FETCHING DATA
+      params: {                                         
         latitude: Number(details.geometry.location.lat),
         longitude: Number(details.geometry.location.lng)
       },
